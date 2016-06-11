@@ -1,0 +1,89 @@
+/*
+ Theme Name:   impactAFRICA
+ Theme URI:    impactafrica.codeforafrica.org
+ Description:  impactAFRICA by CodeForAfrica
+ Author:       Serah Njambi
+ Author URI:   http://codeforafrica.org
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         data, journalism, grants, fund, story-telling 
+ Text Domain:  impactAFRICA
+*/
+
+@import url("../Divi/style.css");
+
+/* = Theme customization starts here
+ * -------------------------------------------------------------- */
+body {
+    font-family: 'Source Sans Pro',sans-serif;
+}
+a {
+    color: #ee1e21;
+    text-decoration: underline; 
+}
+#main-header {
+    border-bottom: 0.625rem solid #e5e5e5;
+}
+.et_pb_section {
+    border-bottom: 0.625rem solid #e5e5e5;
+}
+.et_pb_row.et_pb_row_fullwidth, .et_pb_specialty_fullwidth > .et_pb_row {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.et_pb_module.et_pb_button {
+    min-width: 180px;
+}
+#main-footer {
+    padding: 43px 0 28px;
+        border-top: 0.625rem solid #e5e5e5;
+}
+.footer-text h5 {
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.footer-partners {
+    overflow: hidden;
+    padding: 36px 0 0 1px;
+}
+
+.footer-partners .logos {
+    float: left;
+} 
+.footer-partners .logos img {
+    width:80px;
+    height:46px;
+    margin-right:2rem;
+}
+
+.footer-partners .socials {
+    float: right;
+    padding-top: 16px;
+    font-size: 13px;
+    line-height: 2.31;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.footer-partners .socials ul {
+    overflow: hidden;
+    list-style: none outside none;
+}
+
+.footer-partners .socials li {
+    float: left;
+    padding-right: 2rem;
+}
+
+.footer-partners .socials a {
+    margin-left: 7px;
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
